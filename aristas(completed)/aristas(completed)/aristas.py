@@ -291,6 +291,7 @@ for url in urls:
                 img_url = ""
 
                 # Get content
+                # Get category, linea, sublinea this is my temp file
                 product_response = requests.get(product)
                 product_soup = BeautifulSoup(product_response.content, "html.parser")
 
