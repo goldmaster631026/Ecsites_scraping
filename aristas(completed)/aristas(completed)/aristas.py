@@ -212,6 +212,31 @@ for url in urls:
                         writer.writeheader()
                         for item in json_data:
                             writer.writerow(item)
+                            
+                            
+                            
+                            
+                    # result.append(product_data)
+                    # i += 1
+                    # with open("./aristas/aristas.json","w") as file:
+                    #     json.dump(result, file)
+
+                    # # JSON data
+                    # with open("./aristas/aristas.json", "r") as file:
+                    #     json_data = json.load(file)
+
+                    # # Define CSV file name
+                    # csv_file = './aristas/aristas.csv'
+
+                    # # Define fieldnames for CSV header
+                    # fieldnames = json_data[0].keys()
+
+                    # # Write JSON data to CSV 
+                    # with open(csv_file, mode='w', newline='') as file:
+                    #     writer = csv.DictWriter(file, fieldnames=fieldnames)
+                    #     writer.writeheader()
+                    #     for item in json_data:
+                    #         writer.writerow(item)
             else:
                 pass
     else:
